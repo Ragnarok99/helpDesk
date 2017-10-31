@@ -1,0 +1,11 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "help-desk-client-side-solution",
+    "id": "9935fae6-c091-4be2-b2a5-e65a8466f8b6",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/help-desk.sppkg"
+  }
+}

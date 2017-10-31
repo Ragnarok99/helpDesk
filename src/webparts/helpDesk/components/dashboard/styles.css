@@ -1,0 +1,130 @@
+.navbar-nav-hdsk {
+    /* display: -webkit-box; */
+    /* display: -webkit-flex; */
+    display: -ms-flexbox;
+    display: flex;
+
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-item-hdsk {
+  padding: 0 5px;
+}
+
+.nav-link-hdsk{
+  color: rgba(0,0,0,.5);
+}
+
+.nav-link-hdsk:hover {
+  color: rgba(0,0,0,.7);
+  text-decoration: none;
+}
+
+.categories-title {
+  text-transform: uppercase;
+  color: #777;
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+}
+
+.categories, .category>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.categories>li, .category>ul>li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 53px;
+}
+
+.categories>li .content .icon, .category>ul>li .content .icon {
+  font-size: 17px;
+  line-height: 17px;
+  padding: 13px;
+  border-radius: 50%;
+  margin-right: 15px;
+  min-width: 46px;
+  min-height: 46px;
+  margin-top: 2px;
+}
+
+.pull-left {
+  float: left;
+}
+.pull-left {
+  float: left!important;
+}
+
+.categories>li .content h2, .category>ul>li .content h2 {
+  display: block;
+  word-wrap: break-word;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  margin-left: 62px;
+}
+
+.categories h2.title .description, .category h2.title .description, .subcategory h2.title .description {
+  font-size: 65%;
+  font-weight: 400;
+  line-height: 1;
+  color: #777;
+  margin-top: 5px;
+  display: block;
+}
+
+.stats {
+  text-align: center;
+}
+
+.stats small {
+  text-transform: uppercase;
+  color: #777;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.categories>li .card, .category>ul>li .card {
+  border: 0 !important;
+  border-left: 4px solid #ccc !important;
+  text-align: left;
+  margin-top: 2px;
+  overflow: hidden;
+  border-radius: 0;
+  height: 53px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.categories>li .card>*, .category>ul>li .card>* {
+  padding-left: 20px;
+}
+
+.categories>li .card p, .category>ul>li .card p {
+  margin: 0;
+}
+
+.categories>li .card .post-content, .category>ul>li .card .post-content {
+  overflow: hidden;
+}
+.categories>li .card img, .category>ul>li .card img {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+  font-weight: 400;
+  line-height: 1;
+  color: #777;
+}
+
+.human-readable-number{
+  font-size: 20px;
+}
