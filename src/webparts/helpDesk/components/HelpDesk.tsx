@@ -6,7 +6,8 @@ import { HashRouter, Switch, Route } from "react-router-dom";
 import Dashboard from './dashboard/';
 import Category from './category/';
 import Ticket from './ticketDescription/';
-
+ 
+import NewTicket from './newTicket/';
 import {
   Collapse,
   Navbar,
@@ -30,7 +31,7 @@ export default class HelpDesk extends React.Component<any, any> {
     return ( 
       <div className="container">
           <Navbar color="faded" light>
-          <NavbarBrand href="/" className="mr-auto">
+          <NavbarBrand className="mr-auto">
             HelpDesk
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
@@ -47,13 +48,16 @@ export default class HelpDesk extends React.Component<any, any> {
             </Nav>
           </Collapse>
         </Navbar>
-
+ 
  <HashRouter>
         <Switch>
           <Route exact path='/' component={Dashboard}/>
-          <Route path='/category/1/announcements/ticketName' component={Ticket}/> 
+          <Route exact path='/category/1/announcements/ticketName' component={Ticket}/>
+          <Route exact path='/category/1/announcements/newTicket' component={NewTicket}/>
           <Route path='/category/1/announcements' component={Category}/>
-          </Switch>
+          <Route path='/category/1/announcements' component={Category}/>
+          
+        </Switch>
      </HashRouter>
       </div>
     

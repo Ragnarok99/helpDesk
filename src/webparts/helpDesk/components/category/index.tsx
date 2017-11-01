@@ -1,4 +1,6 @@
 import * as React from "react";
+import {Link} from 'react-router-dom';
+
 import { Button } from "reactstrap";
 
 require("./styles.css");
@@ -9,9 +11,9 @@ const category = () => {
       <div className="clearfix">
         {/* buttons for options section */}
 
-        <Button className="btn-new-topic" outline color="primary">
+        <Link to='//category/1/announcements/newTicket' className="btn btn-primary" color="primary">
           New Topic
-        </Button>
+        </Link >
       </div>
       <hr className="hidden-xs" />
       <p className="hidden-xs">Announcements</p>
@@ -37,9 +39,9 @@ const category = () => {
 
             <h2 className="title">
             
-              <a href="/topic/11227/nodebb-v1-6-0-has-been-released/9">
-                NodeBB v1.6.0 has been released!
-              </a>
+              <Link to="/category/1/announcements/ticketName">
+              problem windows server 2002 lts
+              </Link>
               <br />
 
               <small className="hidden-xs">
@@ -85,7 +87,7 @@ const category = () => {
                 </a>
                 <a
                   className="permalink"
-                  href="/topic/11227/nodebb-v1-6-0-has-been-released/9"
+                  href="/#"
                 >
                   <span className="timeago" title="20 Oct 2017, 21:42">
                     2 days ago
@@ -96,12 +98,12 @@ const category = () => {
                 <p>
                   <a
                     className="plugin-mentions-a"
-                    href="https://community.nodebb.org/uid/12497"
+                    href="#"
                   >
                     @nsuchy
                   </a>{" "}
                   said in{" "}
-                  <a href="/post/63085">NodeBB v1.6.0 has been released!</a>:
+                  <Link to="/category/1/announcements/ticketName">problem windows server 2002 lts</Link>:
                 </p>
                 <blockquote>
                   <p>so good</p>
@@ -129,9 +131,9 @@ const category = () => {
             </div>
 
             <h2 className="title">
-              <a href="/topic/11227/nodebb-v1-6-0-has-been-released/9">
-              <span className="answered"><i className="fa fa-question-circle"></i> Solved</span> NodeBB v1.6.0 has been released!
-              </a>
+              <Link to="/category/1/announcements/ticketName">
+              <span className="answered"><i className="fa fa-question-circle"></i> Solved</span> problem windows server 2002 lts
+              </Link>
               <br />
 
               <small className="hidden-xs">
@@ -177,7 +179,7 @@ const category = () => {
                 </a>
                 <a
                   className="permalink"
-                  href="/topic/11227/nodebb-v1-6-0-has-been-released/9"
+                  href="/#"
                 >
                   <span className="timeago" title="20 Oct 2017, 21:42">
                     2 days ago
@@ -188,12 +190,12 @@ const category = () => {
                 <p>
                   <a
                     className="plugin-mentions-a"
-                    href="https://community.nodebb.org/uid/12497"
+                    href="#"
                   >
                     @nsuchy
                   </a>{" "}
                   said in{" "}
-                  <a href="/post/63085">NodeBB v1.6.0 has been released!</a>:
+                  <a href="/post/63085">problem windows server 2002 lts!</a>:
                 </p>
                 <blockquote>
                   <p>so good</p>

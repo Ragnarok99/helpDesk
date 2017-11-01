@@ -29,7 +29,7 @@ const Dashboard = () => {
                     <br />
 
                     <span className="description">
-                      <p>Check here for announcements about NodeBB</p>
+                      <p>Check here for announcements about helpDesk</p>
                     </span>
                   </h2>
                   <span className="visible-xs pull-right">

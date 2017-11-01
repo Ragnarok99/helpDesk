@@ -24,7 +24,8 @@ export default class HelpDeskWebPart extends BaseClientSideWebPart<IHelpDeskWebP
     super();
 
     SPComponentLoader.loadCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
+    SPComponentLoader.loadCss('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css');
+    
   }
 
   public render(): void {
