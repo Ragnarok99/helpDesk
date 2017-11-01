@@ -11,7 +11,7 @@ const category = () => {
       <div className="clearfix">
         {/* buttons for options section */}
 
-        <Link to='//category/1/announcements/newTicket' className="btn btn-primary" color="primary">
+        <Link to='/category/1/announcements/newTicket' className="btn btn-primary" color="primary">
           New Topic
         </Link >
       </div>
