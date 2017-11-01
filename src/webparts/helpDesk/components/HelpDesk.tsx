@@ -5,6 +5,7 @@ import { escape } from '@microsoft/sp-lodash-subset';
 import { HashRouter, Switch, Route } from "react-router-dom";
 import Dashboard from './dashboard/';
 import Category from './category/';
+import NewTicket from './newTicket/';
 import {
   Collapse,
   Navbar,
@@ -49,7 +50,9 @@ export default class HelpDesk extends React.Component<any, any> {
  <HashRouter>
         <Switch>
           <Route exact path='/' component={Dashboard}/>
+          <Route path='/category/1/announcements/newTicket' component={NewTicket}/>
           <Route path='/category/1/announcements' component={Category}/>
+          
         </Switch>
      </HashRouter>
       </div>
